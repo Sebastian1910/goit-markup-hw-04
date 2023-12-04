@@ -213,6 +213,7 @@ ol {
 
 .box-address {
   margin-left: auto;
+  font-style: normal;
 }
 
 .box-logo {
@@ -260,7 +261,6 @@ ol {
 }
 
 .box-sestion-three {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .box-heading-section-three {
@@ -295,7 +295,8 @@ ol {
 }
 .box-div-bg {
   padding: 32px 0px;
-  background-color: #f4f4fd;
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--color-white);
 }
 .box-name-bg {
   text-align: center;

@@ -372,3 +372,37 @@ ol {
 .box-header-portfolio {
   margin-bottom: 8px;
 }
+
+.icon {
+  fill: #8e8f99;
+  border: 2px #2a2a2a;
+  display: inline-flex;
+  padding: 9px 9px 6px 11px;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+}
+.icon-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  background-color: #f4f4fd;
+}
+.icon:hover {
+  fill: #03a9f4;
+}
+.icon-section-one {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+}
+use {
+  width: 64px;
+  height: 64px;
+}
+.icon-border {
+  border-spacing: 2px #2a2a2a;
+}

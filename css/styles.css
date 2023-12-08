@@ -454,12 +454,31 @@ ol {
 }
 .class-a {
   color: #fff;
-
-  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.box-social {
+  padding-left: 120px;
+}
+.box-list-icon-footer {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+}
+.box-footer-div {
+  display: flex;
+}
+.box-icon-section-two {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white-2);
 }

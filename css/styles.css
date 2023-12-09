@@ -436,8 +436,8 @@ ol {
 .icon-link-five:hover,
 .icon-link-five:active,
 .icon-link-five:focus {
-  border: 2px solid #404bbf;
-  fill: #404bbf;
+  border-color: #404bbf;
+  color: #404bbf;
 }
 .box-section-five {
   padding: 120px 0;

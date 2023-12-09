@@ -439,8 +439,8 @@ ol {
   justify-content: center;
   color: #8e8f99;
 }
+
 .icon-link-five:hover,
-.icon-link-five:active,
 .icon-link-five:focus {
   border-color: #404bbf;
   color: #404bbf;
@@ -477,7 +477,8 @@ ol {
 .icon-svg-two {
   fill: currentColor;
 }
-.icon-social:hover {
+.icon-social:hover,
+.icon-social:active {
   background-color: #404bbf;
 }
 
@@ -516,7 +517,6 @@ ol {
   height: 40px;
 }
 .icon-a-footer:hover,
-.icon-a-footer:active,
 .icon-a-footer:focus {
   background-color: #31d0aa;
 }

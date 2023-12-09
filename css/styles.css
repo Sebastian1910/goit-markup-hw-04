@@ -149,6 +149,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-dark-grey);
+  margin-bottom: 72px;
 }
 
 .light-bg {
@@ -305,9 +306,7 @@ ol {
 .box-section-four {
   padding: 120px 0;
 }
-.box-heading-bg {
-  margin-bottom: 72px;
-}
+
 .box-list-bg {
   display: flex;
   gap: 24px;
@@ -403,6 +402,10 @@ ol {
   gap: 24px;
   justify-content: center;
 }
+.icon-list-two {
+  display: flex;
+  gap: 24px;
+}
 
 .icon-section-four {
   width: 232px;
@@ -413,19 +416,21 @@ ol {
   align-items: center;
 }
 .icon-section-five {
-  fill: #8e8f99;
-  border: 2px #2a2a2a;
-  display: inline-flex;
-  padding: 16px 32px;
-  justify-content: center;
-  align-items: center;
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 2px solid #8e8f99;
-  border-radius: 4px;
 }
-
-.icon-section-five:hover {
+.icon-link-five {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+.icon-link-five:hover,
+.icon-link-five:active {
   border: 2px solid #404bbf;
   fill: #404bbf;
 }
@@ -458,7 +463,9 @@ ol {
 .icon-svg {
   fill: var(--color-white-2);
 }
-
+.icon-svg-two {
+  fill: currentColor;
+}
 .icon-social:hover {
   background-color: #404bbf;
 }

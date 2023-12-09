@@ -482,3 +482,15 @@ ol {
   align-items: center;
   background-color: var(--color-white-2);
 }
+.icon-social-footer {
+  display: flex;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.icon-social-footer:hover {
+  background-color: #31d0aa;
+}

@@ -68,6 +68,7 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: var(--color-dark-blue);
+  padding: 0;
 }
 
 .contacts {

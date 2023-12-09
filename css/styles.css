@@ -434,7 +434,8 @@ ol {
   color: #8e8f99;
 }
 .icon-link-five:hover,
-.icon-link-five:active {
+.icon-link-five:active,
+.icon-link-five:focus {
   border: 2px solid #404bbf;
   fill: #404bbf;
 }
@@ -455,7 +456,7 @@ ol {
   justify-content: center;
   align-items: center;
 }
-.box-list-icon > li {
+.box-list-icon-li {
   width: 40px;
   height: 40px;
 }
@@ -508,7 +509,9 @@ ol {
   width: 40px;
   height: 40px;
 }
-.icon-a-footer:hover {
+.icon-a-footer:hover,
+.icon-a-footer:active,
+.icon-a-footer:focus {
   background-color: #31d0aa;
 }
 .icon-a-footer {

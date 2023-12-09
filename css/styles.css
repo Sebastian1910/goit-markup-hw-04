@@ -481,7 +481,7 @@ ol {
   fill: currentColor;
 }
 .icon-social:hover,
-.icon-social:active {
+.icon-social:focus {
   background-color: #404bbf;
 }
 
